@@ -1,0 +1,32 @@
+/* Style for the form */
+#login-form {
+    margin: 50px auto;
+    width: 300px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Style for the input elements */
+input {
+    display: block;
+}
+
+/* Style for text inputs */
+.text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the submit button */
+.button-input {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
