@@ -1,0 +1,16 @@
+/* Flex Child Styles */
+.flex-child {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: blue;
+}
+
+/* Flex Container Styles */
+.flex-container {
+    width: 1000px;
+    border: 1px solid blue;
+    margin: 10px;
+    display: flex;      /* Defining Flex Parent */
+    flex-wrap: wrap;    /* Allow Flex Children to Wrap */
+}

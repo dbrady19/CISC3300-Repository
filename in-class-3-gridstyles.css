@@ -1,0 +1,25 @@
+/* CSS for grid-container */
+.grid-container {
+    display: grid;
+    height: 100vh; 
+    grid-template-rows: 20% 20% 20% 20% 20%; 
+    grid-template-columns: 20% 20% 20% 20% 20%; 
+}
+
+/* CSS for grid-item-1 */
+.grid-item-1 {
+    background-color: blue;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 6; 
+}
+
+/* CSS for grid-item-2 */
+.grid-item-2 {
+    background-color: green;
+    grid-row-start: 3;
+    grid-row-end: 6; 
+    grid-column-start: 4;
+    grid-column-end: 6; 
+}
