@@ -1,0 +1,11 @@
+1.  It provides the basic structure of web pages, which can be enhanced with other technologies like CSS for styling.
+2. It is a language used to control the layout of web pages. CSS styles and visually enhances that content by defining how elements should look, such as their color, size, spacing, and positioning. 
+3. The website has a very clear structure with how to navigate it and provide information to the user. The top navigation bar organizes key sections like admissions, academics, and student life, making it easy to find essential resources. Dropdown menus and quick links help users access detailed information with fewer clicks. The calls “apply”, “visit”, and “give”. Show important engagement opportunities to the user. The layout, with images and text, shows the university’s identity while guiding users to explore programs, campus tours, or recent news. This structure ensures efficient and user-friendly navigation.
+4.  An HTML element is a building block of a webpage. It consists of a start tag, content, and an end tag. A tag is used to define an element. Tags are enclosed in angle brackets. Attributes provide additional information about elements. They are placed within the opening tag. 
+5. Selector: Specifies which HTML elements the rule applies to.
+Declaration Block: Enclosed in curly braces, it contains one or more style declarations.
+Property: Defines the aspect of the element to style.
+Value: Specifies the setting for the property.
+6.  It means that multiple styles can apply to the same element, but they are applied based on importance and specificity. The cascade determines which rules take precedence when there are conflicts. The order of priority is inline styles, ID selectors, class selectors, source order.
+7. <img src="../images/pinecone.jpg" alt="Pinecone">
+8. When submitting an HTML form the default behavior has four main steps. First the data submission forms then the form data is sent using the GET method. Then if POST is specified the form data is sent in the request body. Then the last step is the page reloading. After the form is submitted the browser navigates to the response page returned by the server.  
