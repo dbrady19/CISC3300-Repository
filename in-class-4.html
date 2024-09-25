@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Class 4</title>
+</head>
+<body>
+    <h1>JavaScript Object Example</h1>
+    
+    <!-- Link to external JavaScript file -->
+    <script src="in-class-4.js"></script>
+    
+    <!-- Inline script block -->
+    <script>
+        // Creating an object using a literal constructor
+        const firstObject = {
+            name: 'Dylan',  // Replace 'YourFirstName' with your first name
+            echo: function() {
+                console.log(this.name); // Logs the value of the 'name' property
+            }
+        };
+
+        // Call the echo method to print the first name
+        firstObject.echo();  // Output: Your first name
+
+        // Update the name property to your last name
+        firstObject.name = 'Brady';  // Replace 'YourLastName' with your last name
+
+        // Call the echo method again to print the last name
+        firstObject.echo();  // Output: Your last name
+    </script>
+</body>
+</html>
