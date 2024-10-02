@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation with jQuery</title>
+    
+    <!-- Updated jQuery CDN link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <!-- Style section -->
+    <style>
+        .container-color {
+            color: blue;
+        }
+    </style>
+    
+    <!-- Script section -->
+    <script>
+        $(document).ready(function() {
+            // Set text and class for the container div
+            $('#container').text('in class 5').attr('class', 'container-color');
+
+            // Add click event using jQuery's .on() method
+            $('#event-button').on('click', function() {
+                // Append a new div with "new text" to the container
+                $('#container').append('<div>new text</div>');
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Div element with id "container" -->
+    <div id="container"></div>
+
+    <!-- Button element with id "event-button" -->
+    <button id="event-button">Click me</button>
+</body>
+</html>

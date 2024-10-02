@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    
+    <!-- Style section -->
+    <style>
+        .container-color {
+            color: blue;
+        }
+    </style>
+    
+    <!-- Script section -->
+    <script>
+        window.addEventListener('load', function(e) {
+            // Reference to the div element with id "container"
+            var containerDiv = document.getElementById('container');
+            
+            // Create a text node with "in class 5"
+            var textNode = document.createTextNode('in class 5');
+            
+            // Append the text node to the div
+            containerDiv.appendChild(textNode);
+            
+            // Add the "container-color" class to the div
+            containerDiv.classList.add('container-color');
+
+            // Get the button element by its id
+            var buttonElement = document.getElementById('event-button');
+            
+            // Add event listener for the button click event
+            buttonElement.addEventListener('click', function() {
+                // Create a new div element
+                var appendDiv = document.createElement('div');
+                
+                // Create a text node for the new div
+                var appendDivText = document.createTextNode('new text');
+                
+                // Append the text node to the new div
+                appendDiv.appendChild(appendDivText);
+                
+                // Append the new div to the container div
+                containerDiv.appendChild(appendDiv);
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Div element with id "container" -->
+    <div id="container"></div>
+
+    <!-- Button element with id "event-button" -->
+    <button id="event-button">Click me</button>
+</body>
+</html>
