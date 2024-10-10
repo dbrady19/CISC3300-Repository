@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat List & Form</title>
+    <style>
+        .error {
+            background-color: red;
+            color: white;
+            padding: 5px;
+        }
+        .success {
+            background-color: green;
+            color: white;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Click and Form Handling Example</h1>
+
+    <!-- Unordered List 1 -->
+    <ul id="color-list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- Unordered List 2 (for Cats) -->
+    <h2>Cats List</h2>
+    <ul id="cats-list"></ul>
+
+    <!-- Form for Input and Submission -->
+    <h2>Submit a Value</h2>
+    <form id="myForm">
+        <label for="textInput">Enter a value: </label>
+        <input type="text" id="textInput">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Message Section -->
+    <div id="message"></div>
+
+    <script src="homework6.js"></script>
+</body>
+</html>
