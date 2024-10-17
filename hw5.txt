@@ -1,0 +1,20 @@
+It is the foundation of data communication for the World Wide Web. It defines how messages are formatted and transmitted, and how web servers and browsers should respond to various commands. 
+GET: Retrieve data from the server 
+POST: Send data to the server 
+PUT: Update or replace an existing resource 
+DELETE: Remove a resource 
+PATCH: Partially update a resource
+HEAD: Retrieve headers of a resource 
+OPTIONS: Check available communication options for a resource.
+CONNECT: Establish a tunnel to the server 
+TRACE: Echo request back for diagnostic purposes.
+API is a set of rules and protocols that allows different software applications to communicate with each other. It defines the methods and data formats applications should use to request and exchange information. JSON is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate. It is commonly used for transmitting data between a server and a web application as text.
+AJAX is a technique used to create dynamic, fast, and interactive web applications by sending and retrieving data from a server asynchronously without reloading the entire webpage. Asynchronous code allows a program to start a task and move on to other tasks while waiting for the first one to complete, rather than blocking execution until the task finishes. This improves the efficiency and responsiveness of programs, particularly in web development.
+REST is an architectural style for designing networked applications. Resources are the fundamental components that the API interacts with. They represent entities or objects in the system, such as users, posts, products, etc. 
+Retrieve multiple posts: GET /posts
+Retrieve a single post: GET /posts/{post_id}
+Save a post: POST /posts
+Update a post: PUT /posts/{post_id} 
+Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their containing scope during the compilation phase, before code execution. A closure is a function that remembers and can access variables from its outer scope even after that outer scope has finished execution. Closures are created when a function is defined inside another function, allowing the inner function to maintain a reference to variables from the outer function.
+
+
