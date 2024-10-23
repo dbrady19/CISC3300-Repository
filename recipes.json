@@ -1,19 +1,29 @@
 {
-    "recipes": [
-        {
-            "id": 1,
-            "title": "Spaghetti",
-            "description": "A Italian pasta dish with rich tomato and meat sauce."
-        },
-        {
-            "id": 2,
-            "title": "Chicken Tenders",
-            "description": "tender chicken pieces and fries with ketchup on the side."
-        },
-        {
-            "id": 3,
-            "title": "Stir-Fry",
-            "description": "A quick and healthy stir-fry with fresh vegetables and soy sauce."
-        }
-    ]
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Spaghetti",
+      "description": "A Italian pasta dish with rich tomato and meat sauce."
+    },
+    {
+      "id": "2",
+      "title": "Chicken Tenders",
+      "description": "tender chicken pieces and fries with ketchup on the side."
+    },
+    {
+      "id": "3",
+      "title": "Stir-Fry",
+      "description": "A quick and healthy stir-fry with fresh vegetables and soy sauce."
+    },
+    {
+      "id": "f0c7",
+      "title": "burger",
+      "description": "ffff"
+    },
+    {
+      "id": "40fc",
+      "title": "ff",
+      "description": "ff"
+    }
+  ]
 }
